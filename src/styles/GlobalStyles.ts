@@ -1,10 +1,10 @@
 import { createGlobalStyle } from "styled-components";
-import {colors} from "./Colors";
+import { colors } from "./Colors";
 
-import theme from '.';
+import theme from ".";
 type Theme = typeof theme;
 
-const  GlobalStyle = createGlobalStyle <{theme: Theme}>`
+const GlobalStyle = createGlobalStyle<{ theme: Theme }>`
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 *{
   margin: 0;
@@ -12,14 +12,15 @@ const  GlobalStyle = createGlobalStyle <{theme: Theme}>`
   box-sizing: border-box;
   outline: none;
   font-family: ${theme.fonts.body};
+  text-decoration: none;
   
 }
 
 body{
-  background: ${colors.neutral[900]};
+  background: ${colors.neutral[600]};
   font-size: ${theme.fontSizes.h1};
   color: ${colors.neutral.white};
 }
 
 `;
-export default GlobalStyle
+export default GlobalStyle;

@@ -1,8 +1,6 @@
 export const colors = {
     neutral: {
-      900: '#181A1F',
-      800: '#1E222D',
-      700: '#1E2026',
+      900: '#030305',
       600: '#21242B',
       550: 'rgba(55, 59, 67, 0.34)',
       500: '#2f3035',
@@ -27,7 +25,7 @@ export const colors = {
       'purple-500': '#8C27BC',
       'pink-700': '#BC2792',
       'blue-300': '#26ADD8',
-      'blue-400': '#27A1BC',
+      'blue-400': 'rgba(38, 173, 216, 0.4)',
       purple: '#7975FF',
       green: '#4CBC27',
       blue: '#4942FF',

@@ -1,6 +1,6 @@
 import {colors} from './Colors';
+
 const theme = {
-    name: 'default',
   colors,
   fonts: {
      body: 'Roboto , sans-serif '},
@@ -22,6 +22,6 @@ const theme = {
     regular: 400,
     medium: 500,
     bold: 700,
-  }
+  },
 }
 export default theme;

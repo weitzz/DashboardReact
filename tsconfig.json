@@ -20,6 +20,15 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
+  "plugins": [
+    {
+      "name": "typescript-styled-plugin",
+      "lint": {
+        "vendorPrefix": "error",
+          "zeroUnits": "ignore"
+      }
+    },
+  ],
   "include": [
     "src"
   ]

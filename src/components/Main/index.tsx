@@ -1,10 +1,16 @@
 import React from 'react'
+import Charts from '../Charts'
+import {Container} from './style'
 
 const Main = () => {
     return (
-        <div>
+       
+        <Container>
+           <h2>Teste</h2>
+           <Charts/>
             
-        </div>
+        </Container>
+       
     )
 }
 
