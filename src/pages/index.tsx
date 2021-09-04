@@ -1,8 +1,8 @@
-import Dashboard from "../components/Dashboard";
+import Main from "../components/Main";
 const Index = () => {
   return (
     <>
-     <Dashboard/>
+      <Main />
     </>
   );
 };
